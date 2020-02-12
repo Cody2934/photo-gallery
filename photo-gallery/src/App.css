@@ -1,6 +1,13 @@
-.App {
+* {
+  background-color: burlywood;
+  font-family: fantasy;
+  font-style: italic;
+}
+
+header {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +42,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  height: 250px;
+  width: 250px;
 }
