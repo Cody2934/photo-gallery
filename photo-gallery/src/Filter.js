@@ -7,7 +7,6 @@ export default class Filter extends Component {
     render() {
       const monsterNodes = images
       .filter(monster => {
-        console.log(monster.keyword, this.state.selected)
         if (!this.state.selected) return true;
             
             return monster.keyword === this.state.selected;

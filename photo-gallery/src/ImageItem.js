@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export default class ImageItem extends Component {
     render() {
-        return ( <li key= {this.props.image.name}>
+        return ( <li key= {this.props.image}>
             {/* this is the information */}
             <div className="info-container">
                 <h2>{this.props.image.name}</h2>

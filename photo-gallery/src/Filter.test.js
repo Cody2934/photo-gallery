@@ -1,10 +1,10 @@
 import React from 'react';
-import App from './App.js';
+import Filter from './Filter.js';
 import renderer from 'react-test-renderer';
 
 it('renders correctly', () => {
   const tree = renderer
-    .create(<App />)
+    .create(<Filter />)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
