@@ -1,39 +1,16 @@
 import React from 'react';
 import './App.css';
 import Header from "./Header.js";
+import images from "./data.js";
+import Filter from "./Filter.js";
+
 
 
 function App() {
   return (
   <div>
-
       <Header/>
-      <div>
-      </div>
-
-      {/* ImageList with dropdown
-      <div>
-      </div> */}
-
-      {/* ActualImages that show monsters
-      <div>
-      </div> */}
-
-      
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+      <Filter/>
   </div>
   );
 }
